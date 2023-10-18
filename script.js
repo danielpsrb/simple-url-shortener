@@ -5,7 +5,7 @@ shortBtn.addEventListener('click', shortenUrl);
 
 function shortenUrl() {
     var originalUrl = document.getElementById("originalUrl").value;
-    var apiKey = "bd88b0ad9349a48d14a02c58ee0b539ea407e018"; // Gantilah dengan kunci API Bitly Anda
+    var apiKey = "YOUR_API_KEY"; // Gantilah dengan kunci API Bitly Anda
     var apiUrl = "https://api-ssl.bitly.com/v4/shorten";
 
     var shortenedUrlTextarea = document.getElementById("shortenedUrl");
